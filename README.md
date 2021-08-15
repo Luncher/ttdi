@@ -2,6 +2,9 @@
 
 `tdi` is a [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) tool for typescript and javascript.
 
+
+features:
+
 - property based injection
 - constructor based injection
 - support for multiple DI containers
