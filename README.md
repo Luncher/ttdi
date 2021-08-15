@@ -1,6 +1,6 @@
 # tdi
 
-`tdi` is a [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) tool for typescript and javascript.
+`tdi` is a [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) tool for TypeScript and JavaScript.
 
 
 features:
@@ -22,7 +22,9 @@ tdi leverage [decorator](https://github.com/tc39/proposal-decorators) and [metad
 "experimentalDecorators": true,
 ```
 
-For the decorator of typescript, please refer to [decorators](https://www.typescriptlang.org/docs/handbook/decorators.html)
+For the decorator of TypeScript, please refer to [decorators](https://www.typescriptlang.org/docs/handbook/decorators.html)
+
+
 
 
 ### Install 
