@@ -33,6 +33,8 @@ or
 npm i tdi -S
 ```
 
+---
+
 ### Usage
 
 
@@ -76,3 +78,26 @@ expect(foo).toBeInstanceOf(Foo)
 expect(foo.bar).toBeInstanceOf(Bar)
 expect(foo.baz).toBeInstanceOf(Baz)
 ```
+
+---
+
+### API
+
+#### @Injectable()
+
+The tag class can be injected as a provider.
+
+
+#### @Inject()
+
+class property inject. 
+>notice: constructor argument will auto injected.
+
+
+#### configure
+
+a async providers(injectable) loader.
+
+#### container
+
+instance storage container, you can create multi DI containers.
