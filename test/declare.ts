@@ -1,4 +1,4 @@
-import { configure, Container, Inject, Injectable } from '../src'
+import { Inject, Injectable } from '../src'
 
 @Injectable()
 export class Bar {
