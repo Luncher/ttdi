@@ -1,30 +1,12 @@
-import { configure, Container, Inject, Injectable } from '../src'
+import { configure, Container } from '../src'
 
-@Injectable()
-export class Bar {
-  constructor() {
+import { Bar, Baz, Foo } from './declare'
 
-  }
-}
-
-@Injectable()
-export class Baz {
-
-}
-
-@Injectable()
-export class Foo {
-  @Inject
-  baz!: Baz
-  constructor(public bar: Bar) {}
-}
-
-async function test() {
+test('basic usage', async () => {
   const container = new Container()
-
-  await configure(container, __dirname + '/test.ts')
-
-  console.log(container.get(Foo))
-}
-
-test()
+  await configure(container, __dirname + '/declare.ts')
+  const foo = container.get(Foo)
+  expect(foo).toBeInstanceOf(Foo)
+  expect(foo.bar).toBeInstanceOf(Bar)
+  expect(foo.baz).toBeInstanceOf(Baz)
+})
