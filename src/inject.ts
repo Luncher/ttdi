@@ -1,5 +1,3 @@
-import 'reflect-metadata'
-
 import { propsKey } from "./constants"
 
 export function Inject(target: object, targetKey: string) {  
