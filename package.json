@@ -1,0 +1,28 @@
+{
+  "name": "tdi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luncher/tdi.git"
+  },
+  "keywords": [],
+  "author": "chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luncher/tdi/issues"
+  },
+  "homepage": "https://github.com/Luncher/tdi#readme",
+  "dependencies": {
+    "glob": "^7.1.7",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.4"
+  }
+}
