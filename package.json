@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "jest",
-    "build": "tsc"
+    "lint": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
