@@ -2,10 +2,14 @@
   "name": "tdi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "esm/index.d.js",
   "scripts": {
     "test": "jest",
-    "build": "tsc"
+    "clean": "rm -rf ./esm ./lib",
+    "build": "tsc --project tsconfig-build.json",
+    "build-esm": "tsc --project tsconfig-build-esm.json"
   },
   "repository": {
     "type": "git",
