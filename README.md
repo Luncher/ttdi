@@ -30,12 +30,12 @@ For the decorator of TypeScript, please refer to [decorators](https://www.typesc
 ### Install 
 
 ```shell
-yarn add tdi -S
+yarn add ttdi -S
 ```
 
 or
 ```shell
-npm i tdi -S
+npm i ttdi -S
 ```
 
 ---
@@ -46,7 +46,7 @@ npm i tdi -S
 #### declare.ts
 
 ```typescript
-import { Inject, Injectable } from 'tdi'
+import { Inject, Injectable } from 'ttdi'
 
 @Injectable()
 export class Bar {
@@ -72,7 +72,7 @@ export class Foo {
 #### main.ts
 
 ```typescript
-import { configure, Container } from 'tdi'
+import { configure, Container } from 'ttdi'
 import { Bar, Baz, Foo } from './declare'
 
 const container = new Container()
