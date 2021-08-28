@@ -10,7 +10,8 @@
     "lint": "tsc --noEmit",
     "clean": "rm -rf ./esm ./lib",
     "build": "tsc --project tsconfig-build.json",
-    "build-esm": "tsc --project tsconfig-build-esm.json"
+    "build-esm": "tsc --project tsconfig-build-esm.json",
+    "prepublishOnly": "npm run build && npm run build-esm"
   },
   "repository": {
     "type": "git",
