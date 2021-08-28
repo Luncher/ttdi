@@ -1,12 +1,8 @@
 # ttdi
 
-[![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-
-[npm-url]: https://www.npmjs.com/package/ttdi
-[npm-image]: https://img.shields.io/npm/v/ttdi.svg?style=for-the-badge
-[travis-url]: https://travis-ci.com/Luncher/ttdi
-[travis-image]: https://img.shields.io/travis/Luncher/ttdi.svg?style=for-the-badge
+![GitHub](https://img.shields.io/github/license/Luncher/ttdi?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/ttdi?style=for-the-badge)
+![Travis (.com)](https://img.shields.io/travis/com/Luncher/ttdi?style=for-the-badge)
 
 
 `ttdi` is a [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) tool for TypeScript and JavaScript.
