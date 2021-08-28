@@ -1,6 +1,15 @@
-# tdi
+# ttdi
 
-`tdi` is a [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) tool for TypeScript and JavaScript.
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+
+[npm-url]: https://www.npmjs.com/package/ttdi
+[npm-image]: https://img.shields.io/npm/v/ttdi.svg?style=flat
+[travis-url]: https://travis-ci.org/Luncher/alipay
+[travis-image]: https://img.shields.io/travis/Luncher/alipay.svg?style=flat
+
+
+`ttdi` is a [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) tool for TypeScript and JavaScript.
 
 
 features:
@@ -15,7 +24,7 @@ features:
 
 ### Prerequisite
 
-tdi leverage [decorator](https://github.com/tc39/proposal-decorators) and [metadata](https://github.com/rbuckton/reflect-metadata), you need to enable emitting decorator metadata in your Typescript config.Add these two lines to your tsconfig.json file under the compilerOptions key:
+ttdi leverage [decorator](https://github.com/tc39/proposal-decorators) and [metadata](https://github.com/rbuckton/reflect-metadata), you need to enable emitting decorator metadata in your Typescript config.Add these two lines to your tsconfig.json file under the compilerOptions key:
 
 ```javascript
 "emitDecoratorMetadata": true,
