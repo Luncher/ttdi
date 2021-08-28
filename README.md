@@ -5,7 +5,7 @@
 
 [npm-url]: https://www.npmjs.com/package/ttdi
 [npm-image]: https://img.shields.io/npm/v/ttdi.svg?style=flat
-[travis-url]: https://travis-ci.org/Luncher/ttdi
+[travis-url]: https://travis-ci.com/Luncher/ttdi
 [travis-image]: https://img.shields.io/travis/Luncher/ttdi.svg?style=flat
 
 
