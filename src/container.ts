@@ -1,6 +1,6 @@
 import { classDepsKey, classKey, propsKey } from "./constants"
 import { isString, isSymbol } from "./utils"
-import type { Identifier, Newable } from './types'
+import { Identifier, Newable } from './types'
 
 export class Container {
   private ctorMap = new Map<Identifier<unknown>, { ctor: Function, args: any[] }>()
