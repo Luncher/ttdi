@@ -1,4 +1,4 @@
-import { Identifier } from './types'
+import type { Identifier } from './types'
 
 export const classKey: Identifier = 'IOC:Injectable'
 export const classDepsKey: Identifier = 'IOC:DepsKey'
