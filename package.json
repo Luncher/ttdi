@@ -12,8 +12,8 @@
     "clean": "rm -rf ./esm ./lib",
     "build": "tsc --project tsconfig-build.json",
     "build-esm": "tsc --project tsconfig-build-esm.json",
-    "build:all": "npm-run-all validate clean build build-esm",
-    "prepublishOnly": "npm run build:all"
+    "build:all": "npm-run-all clean build build-esm",
+    "prepublishOnly": "npm run validate build:all"
   },
   "repository": {
     "type": "git",
