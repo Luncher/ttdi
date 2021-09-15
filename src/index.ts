@@ -1,10 +1,8 @@
 import 'reflect-metadata'
-
 import glob from 'glob'
 
 import { Container } from './container'
 import { classKey } from './constants'
-
 export { Injectable } from './injectable'
 export { Container } from './container'
 export { Inject } from './inject'
