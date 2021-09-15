@@ -1,4 +1,4 @@
-import { classDepsKey, classKey, propsKey } from "./constants"
+import { classDepsKey, propsKey } from "./constants"
 import { isString, isSymbol } from "./utils"
 import type { Identifier, Newable } from './types'
 
@@ -38,6 +38,7 @@ export class Container {
       inst = Reflect.construct(ctor, args)
     }
 
+    // 注意：在对象构造完毕之后再构造对象依赖的成员属性
     const props = Reflect.getMetadata(propsKey, ctor) || {}
     Object.keys(props).forEach((it: string) => {
       const identifier = props[it].value as Identifier;
